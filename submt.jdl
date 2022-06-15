@@ -1,0 +1,11 @@
+universe  = vanilla
+
+arguments =  $(file)
+
+executable = run.sh
+
+initialdir =  job$(Process)
+Output = condor.out
+Error = condor.err
+Log = condor.log
+Queue file from f_new.txt
