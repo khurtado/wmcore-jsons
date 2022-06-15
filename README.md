@@ -1,10 +1,15 @@
 # Description of files
 
 f.txt: Original input list of files
+
 f_new.txt: List excluding T0 REPLAYs and Run2022A (since it was reprocessed)
+
 failedFilesMerged.txt: Files we failed getting information from.
+
 producedFiles.txt: List Jsons produced
+
 logs: Condor logfiles for each job (each job represents 1 file)
+
 jsons: All jsons produced
 
 # Work description
